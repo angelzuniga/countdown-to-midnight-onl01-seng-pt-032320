@@ -1,4 +1,4 @@
-def countdownn(x)
+def countdown(x)
   while x > 0 
   puts "#{x} SECOND(S)!"
   x += -1
@@ -7,10 +7,10 @@ def countdownn(x)
  puts "HAPPY NEW YEARS!"
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(y)
   while y > 0 
   puts "#{y} SECOND(S)!"
-  x += -1
+  y += -1
   end
 puts "HAPPY NEW YEARS!"
 end
