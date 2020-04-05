@@ -4,7 +4,7 @@ def countdown(x)
   x += -1
   
   end
- puts "HAPPY NEW YEARS!"
+ puts "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(y)
@@ -13,5 +13,5 @@ def countdown_with_sleep(y)
     y += -1
     sleep 1
     end
-  puts "HAPPY NEW YEARS!"
+  puts "HAPPY NEW YEAR!"
 end
